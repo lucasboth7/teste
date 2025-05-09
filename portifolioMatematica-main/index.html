@@ -12,12 +12,11 @@
         rel="stylesheet"> <!--Fonte-->
 
     <link rel="stylesheet" href="style.css">
-    <title>Portifolio de Matemática</title>
+    <title>Portifólio de Matemática</title>
 
 </head>
 
 <body>
-
     <div class="bordas">
 
 
@@ -69,12 +68,14 @@
                                 </li>
                                 <li><a href="#">2º Trimestre</a>
                                     <ul class="subsubmenu">
+                                        <li>Indisponível</i></li>
                                         <!--<li><a href="#">Conteúdo 1</a></li>
                                         <li><a href="#">Conteúdo 2</a></li> -->
                                     </ul>
                                 </li>
                                 <li><a href="#">3º Trimestre</a>
                                     <ul class="subsubmenu">
+                                        <li>Indisponível</i></li>
                                         <!--<li><a href="#">Conteúdo 1</a></li>
                                         <li><a href="#">Conteúdo 2</a></li> -->
                                     </ul>
@@ -85,18 +86,21 @@
                             <ul class="submenu">
                                 <li><a href="#">1º Trimestre</a>
                                     <ul class="subsubmenu">
+                                        <li>Indisponível</i></li>
                                         <!--<li><a href="#">Conteúdo 1</a></li>
                                         <li><a href="#">Conteúdo 2</a></li> -->
                                     </ul>
                                 </li>
                                 <li><a href="#">2º Trimestre</a>
                                     <ul class="subsubmenu">
+                                        <li>Indisponível</i></li>
                                         <!--<li><a href="#">Conteúdo 1</a></li>
                                         <li><a href="#">Conteúdo 2</a></li> -->
                                     </ul>
                                 </li>
                                 <li><a href="#">3º Trimestre</a>
                                     <ul class="subsubmenu">
+                                        <li>Indisponível</i></li>
                                         <!--<li><a href="#">Conteúdo 1</a></li>
                                         <li><a href="#">Conteúdo 2</a></li> -->
                                     </ul>
@@ -109,25 +113,29 @@
             </nav>
         </header> <!--Fim parte fixa-->
 
-        <center>
-            <h1>Portifolio de Matemática</h1>
-            <h3>Página Incial </h3>
-        </center>
+        <div text-align="center" class="tituloIndex">
+            <span class="tituloPrincipalIndex" id="text"></span><span class="cursor"></span>
+            <h3>Página Inicial </h3>
+        </div>
 
-        <p>O portifolio de matemática é um trabalho onde trata sobre os conteúdos em que o aluno estudos naquele
+        <p>O portifolio de matemática é um tipo de avaliação onde trata sobre os conteúdos em que o aluno estudos naquele
             trimestre ou no ano, com explicação, opiniões e alguns exemplos(as vezes fotos de aula ou da web). O
             portifolio é uma forma de avaliação para o aluno, onde o professor consegue perceber as dificuldades,
-            facilidades ou alguma duvida do aluno. Como o portifolio é uma forma de ver o desenvolvimento do aluno
+            facilidades ou alguma dúvida do aluno. Como o portifolio é uma forma de ver o desenvolvimento do aluno
             naquela materia ao longo do tempo, permitindo o aluno e o professor ver a progressão do aprendizado.</p>
         <br>
 
 
         <p>Para conseguir acessar os conteúdos, acesse-os pelo o cabeçalho do site. Além dos conteúdos, também contem
             uma página de observações, com o objetivo de uma autoavaliação e avaliação do professor e suas formas de
-            trabalho.</p>
+            trabalho.</p><br>
+
+        <p>
+            Esse portifólio está sendo desenvolvido pelo o estudante Lucas André Both, do 2° ano de Informática e tem como ideia de continuar com ele até o final do curso.
+        </p>
         <footer> <!--Tag rodapé -->
             <p>&copy; 2025 Todos os direitos reservados.</p>
-            <p>Site desenvolvido pelo estudande Lucas André Both</p>
+            <p>Site desenvolvido pelo estudante Lucas André Both</p>
 
             <p>Para entrar em contato: </p>
             <ul class="redes_sociais">
@@ -135,6 +143,61 @@
         </footer> <!--Fim rodapé-->
 
     </div><!--Fim div bordas-->
+
+    <script>
+        const text1 = "Portifolio de Matemática ";
+        const container = document.getElementById("text");
+        let index = 0;
+
+        function type() {
+            if (index < text1.length) {
+                container.textContent += text1.charAt(index);
+                index++;
+                setTimeout(type, 100); // Tempo entre cada letra (ms)
+            }
+        }
+
+        type(); // Inicia a digitação
+    </script>
+
+    <style>
+        .tituloPrincipalIndex {
+            display: inline;
+            white-space: pre;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 2px;
+            background-color: #ffffff;
+            height: 1.2em;
+            animation: blink 1s step-start infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        span {
+            font-family: monospace;
+            font-size: 35px;
+            color: #f4f4f4;
+            color: #ffffff;
+        }
+
+        .tituloIndex {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 23px;
+            padding-top: 10px;
+        }
+    </style>
+
 </body>
 
 </html>

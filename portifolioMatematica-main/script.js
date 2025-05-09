@@ -1,4 +1,4 @@
-
+/*COMEÇO DO SCRIPT DO CABEÇALHO*/ 
 // Selecionando os elementos
 const menuToggle = document.getElementById('menu-toggle');
 const dropdownMenu = document.querySelector('.dropdown-menu');
@@ -15,3 +15,5 @@ document.addEventListener('click', function(event) {
     dropdownMenu.classList.remove('show');
   }
 });
+
+/*FIM DO SCRIPT DO CABEÇALHO*/
