@@ -1,0 +1,193 @@
+body {
+    background-color: rgb(48, 48, 48);
+    font-family: os;
+}
+
+tr {
+    background-color: black;
+}
+
+.bordas {
+    max-width: 1250px;
+    margin: 0 auto;
+    color: black;
+}
+    
+a {
+    text-decoration: none;
+    color: inherit;
+    color: rgb(194, 194, 194);
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th,
+td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+p {
+    color: rgb(218, 218, 218);
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: rgb(218, 218, 218);
+    margin-bottom: 0;
+    font-size: 29px;
+    padding-bottom: 4px;
+}
+
+h2 {
+    color: rgb(153, 153, 153);
+    margin-bottom: 9px;
+    margin-top: 16px;
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+h3 {
+    color: rgb(218, 218, 218);
+    margin-top: 0;
+    font: 20px;
+}
+
+h4 {
+    color: rgb(218, 218, 218);
+    padding-left: 25px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    font-size: 22px;
+}
+
+.raleway-uniquifier {
+    /*Fonte do Google */
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+li {
+    color: rgb(218, 218, 218);
+    margin-bottom: 5px;
+}
+
+header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.divSiglas{
+    background-color: #5d5d5d;
+}
+/*Testes*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Submenus */
+nav ul li .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 150px;
+    z-index: 1;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+/* Subsubmenus (para os trimestres e conteúdos) */
+nav ul li .submenu .subsubmenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+nav ul li .submenu li:hover .subsubmenu {
+    display: block;
+}
+
+nav ul li .submenu li a:hover {
+    color: #ff6f61;
+}
+
+.cabecalhoListas{
+    background-color: rgb(83, 83, 83);
+    padding: 15px;
+}
+
+/* Início CSS Rodapé */
+footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #4b4b4b;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    text-decoration: none;
+}
+/* Fim CSS Rodapé */

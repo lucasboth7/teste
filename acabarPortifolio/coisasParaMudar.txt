@@ -1,0 +1,11 @@
+Manter padrões na criação de páginas
+
+Página de CONTEÚDOS:
+1ano1triConteudo
+2ano1triConteudo
+3ano1triConteudo
+
+Página de OBSERVAÇÕES:
+1ano1triObservacoes
+2ano1triObservações
+3ano1triObservações

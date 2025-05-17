@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Determinantes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bordas">
+
+
+        <header>
+            <img src="imagens/LogoIf.png" alt="Logo do IFRS - Campus Erechim" width="300px">
+            <nav>
+                <div class="cabecalhoListas">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+
+                        <li><a href="#">1º Ano</a>
+                            <ul class="submenu">
+                                <li><a href="#">1º Trimestre</a>
+                                    <ul class="subsubmenu">
+                                        <li><a
+                                                href="https://www.canva.com/design/DAGG8M0BJQ4/Ohgc6XfOS582JVkd2QHYRw/edit?utm_content=DAGG8M0BJQ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Link
+                                                Canva</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">2º Trimestre</a>
+                                    <ul class="subsubmenu">
+                                        <li><a href="1ano2triExponencial.html">F. Exponencial</a></li>
+                                        <li><a href="1ano2triLongaritma.html"> F. Logaritma</a></li>
+                                        <li><a href="1ano2triObservacoes.html">Observações</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#">3º Trimestre</a>
+                                    <ul class="subsubmenu">
+                                        <li><a href="1ano3triFunMod.html">Função Modular</a></li>
+                                        <li><a href="1ano3triPA.html">Progressão Aritmética</a></li>
+                                        <li><a href="1ano3triPG.html">Progressão Geométrica</a></li>
+                                        <li><a href="1ano3triMatFinanceira.html">Matemática Financeira</a></li>
+                                        <li><a href="1ano3triObservacoes.html">Observações</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">2º Ano</a>
+                            <ul class="submenu">
+                                <li><a href="#">1º Trimestre</a>
+                                    <ul class="subsubmenu">
+                                        <li><a href="2ano1triEstatisticaBasica.html">Estatística Básica</a></li>
+                                        <li><a href="2ano1triMatrizes.html">Matrizes</a></li>
+                                        <li><a href="2ano1triDeterminantes.html">Determinantes</a></li>
+                                        <li><a href="2ano1triObservacoes.html">Observação</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">2º Trimestre</a>
+                                    <ul class="subsubmenu">
+                                        <li>Indisponível</i></li>
+                                        <!--<li><a href="#">Conteúdo 1</a></li>
+                                        <li><a href="#">Conteúdo 2</a></li> -->
+                                    </ul>
+                                </li>
+                                <li><a href="#">3º Trimestre</a>
+                                    <ul class="subsubmenu">
+                                        <li>Indisponível</i></li>
+                                        <!--<li><a href="#">Conteúdo 1</a></li>
+                                        <li><a href="#">Conteúdo 2</a></li> -->
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">3º Ano</a>
+                            <ul class="submenu">
+                                <li><a href="#">1º Trimestre</a>
+                                    <ul class="subsubmenu">
+                                        <li>Indisponível</i></li>
+                                        <!--<li><a href="#">Conteúdo 1</a></li>
+                                        <li><a href="#">Conteúdo 2</a></li> -->
+                                    </ul>
+                                </li>
+                                <li><a href="#">2º Trimestre</a>
+                                    <ul class="subsubmenu">
+                                        <li>Indisponível</i></li>
+                                        <!--<li><a href="#">Conteúdo 1</a></li>
+                                        <li><a href="#">Conteúdo 2</a></li> -->
+                                    </ul>
+                                </li>
+                                <li><a href="#">3º Trimestre</a>
+                                    <ul class="subsubmenu">
+                                        <li>Indisponível</i></li>
+                                        <!--<li><a href="#">Conteúdo 1</a></li>
+                                        <li><a href="#">Conteúdo 2</a></li> -->
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </header> <!--Fim parte fixa-->
+
+        <center>
+            <h1>Determinantes</h1>
+        </center>
+
+        <p>Os determinantes são associados com matriz quadradas. </p>
+
+        <p>[A] Matriz</p>
+        <p>|A| det(A)</p>
+
+        <h4>Ordem 1</h4>
+
+        <p>Se A é de ordem 1</p>
+        <p>A=[-6]   det(A)=-6  |A|=-6</p>
+
+        <h4>Ordem 2</h4>
+
+        <p>Deve-se multiplicar cruzado</p>
+        <img src="imagens/matrizOrdem2.jpg" alt="" width="200px">
+
+        <p>O a11 multiplica o a22(principal)</p>
+        <p>O a12 multiplica o a21(secundaria)</p>
+        <p>det(A) = a11 * a22 - a12 * a21</p>
+
+        <h4>Ordem 3</h4>
+
+        <img src="imagens/matrizOrdem3.jpg" alt="" width="400px">
+
+        <p>Os com riscos na cor verde mantem seus sinais, ja os na cor roxo tem o sinal intertido. Ou seja, os da diagonal principal mantem seus sinais, ja os na diagonal secundaria trocam.</p>
+
+        <P>Exemplo:</P>
+        <img src="imagens/exMatrizOrdem3.jpg" alt="" width="400px">
+
+        <h4>Propriedades dos Determinantes</h4>
+
+        <p><b>1° Fila(coluna ou linha)</b> de zeros na matriz, o determinante será zero.</p>
+        <img src="imagens/prop1.jpg" alt="" width="200px"> <br>
+
+        <p><b>2° Filas paralelas iguais</b> o det(A) = 0</p>
+        <img src="imagens/prop1.jpg" alt="" width="200px"><br>
+
+        <p><b>3° Filas paralelas proporcionais</b> o det(A) = 0</p>
+        <img src="imagens/prop3.jpg" alt="" width="200px"><br>
+        <p>Se multiplicarmos a primeira linha por (-2), teremos o resultado igual ao da segunda linha.</p>
+
+        <p><b>4° Matriz Transposta</b></p>
+        <p>A matriz transposta é a matriz normal invertida, ou seja, o que estava na linha 1 vai passar a ser coluna 1 e assim por diante.</p>
+        <img src="imagens/prop4normal.jpg" alt="" width="200px"><br>
+        <img src="imagens/prop4transposta.jpg" alt="" width="200px"> <br>
+
+        <p><b>5° Multiplicação de uma fila por uma constante</b></p>
+        <img src="imagens/prop5.jpg" alt="" width="500px"> <br>
+
+        <p><b>5° Troca de filas paralelas</b></p>
+        <p>Na troca da posição de duas filas paralelas, o determinante troca o seu sinal.</p>
+        <p>det(M') = -det(M) </p>
+
+        <p><b>7° Teorema de Binet</b></p>
+        <p>det(AB) = det(A) * det(B)</p>
+
+        <p><b>8° Matriz triangular</b></p>
+        <p>O determinante será o produto do diagrama principal</p>
+
+        <p><b>9° - Teorema de Jacob</b></p>
+        <p>det(M) = det(M')</p>
+        <img src="imagens/prop9.jpg" alt="" width="500px">
+        <p>Neste caso, esta sendo mudado o resultado da linha 3 de forma estratégica.(Irei utilizar L2 pra linha 2 e L3 pra linha 3)</p>
+        <p>L3 = 2 L2 * L3</p>
+        <p>L3 = (-2 4 -2) * 2 1 2</p>
+        <p>L3 = 0 5 0</p>
+        <br>
+
+        <h4>Ordem maior que 3</h4>
+        <p><b>Regra de Chió</b></p>
+        <br>
+
+        <p>Nessa regra o a11 tem que ser <b>obrigatoriamente</b> igual a 1.</p>
+
+        <img src="imagens/regraDeChio.jpg" alt="" width="60%">
+
+        <p>Voce pega os elementros a22, a 32 e a42. Pega o a22 e subtrai pelo o a12*a21, o que resultará no elementro a11 da nova matriz. O a32-a12*a31 que será o a12 da nova matriz. O a42 - a12*41 que será o a31. </p>
+
+        <p>Agora você pega os elementros a23, a33, a43 e faz os mesmos procedimentos so que o que antes voce usava a12 agora é a13. Na outra colunas que faltou é a mesma coisa.</p>
+
+
+
+
+
+
+        <footer> <!--Tag rodapé -->
+            <p>&copy; 2025 Todos os direitos reservados.</p>
+            <p>Site desenvolvido pelo estudante Lucas André Both</p>
+
+            <p>Para entrar em contato: </p>
+            <ul class="redes_sociais">
+                <a href="mailto:2024302824@aluno.erechim.ifrs.edu.br" target="_blank">E-mail institucional</a>
+        </footer> <!--Fim rodapé-->
+
+    </div><!--Fim div bordas-->
+
+</body>
+
+</html>
